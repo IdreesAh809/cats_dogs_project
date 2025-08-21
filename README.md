@@ -3,13 +3,12 @@
 
 A web application built with **Streamlit** that uses a trained deep learning model (**MobileNetV2**) to classify uploaded images as either a **Cat** or a **Dog**.
 
-The model was trained on Kaggle’s Cat vs Dog dataset in **Google Colab**, using MobileNetV2 with input size `160x160`.  
-Achieved **~98% validation accuracy**.
+The model was trained on TensorFlow’s Cat vs Dog dataset using MobileNetV2 with input size 160x160.
+Achieved **~98%** validation **accuracy.**
 
 ## Features
 
 - Detects Cat / Dog in uploaded images.
-- Shows prediction confidence percentage.
 - Easy-to-use web interface via Streamlit.
 - Pre-trained MobileNetV2 model for instant predictions.
 
