@@ -1,5 +1,6 @@
 # 🐶🐱 Cat vs Dog Classifier
 [Live Demo](https://catsdogsproject-4cttczqeifyktwafwvs5tw.streamlit.app/)
+
 A web application built with **Streamlit** that uses a trained deep learning model (**MobileNetV2**) to classify uploaded images as either a **Cat** or a **Dog**.
 
 The model was trained on Kaggle’s Cat vs Dog dataset in **Google Colab**, using MobileNetV2 with input size `160x160`.  
