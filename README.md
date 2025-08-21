@@ -1,14 +1,16 @@
-# Face Mask Detection
+# 🐶🐱 Cat vs Dog Classifier
 
-[Live Demo](https://face-mask-detection-ongdh3wsxcarc75sv6xgs2.streamlit.app/)
+A web application built with **Streamlit** that uses a trained deep learning model (**MobileNetV2**) to classify uploaded images as either a **Cat** or a **Dog**.
 
-A web application built with Streamlit that uses a trained deep learning model to identify whether a person is wearing a face mask.
+The model was trained on Kaggle’s Cat vs Dog dataset in **Google Colab**, using MobileNetV2 with input size `160x160`.  
+Achieved **~98% validation accuracy**.
 
 ## Features
 
-- Detects Mask / No Mask in uploaded images.
-- Shows confidence percentage.
+- Detects Cat / Dog in uploaded images.
+- Shows prediction confidence percentage.
 - Easy-to-use web interface via Streamlit.
+- Pre-trained MobileNetV2 model for instant predictions.
 
 ## Project Structure
 ```
@@ -31,8 +33,9 @@ cat-dog-project/
 1. **Clone the repository and navigate into it:**
 
 ```bash
-git clone https://github.com/YourUserName/CATS-DOGS-CLASSIFIER.git
-cd CATS-DOGS-CLASSIFIER
+https://github.com/IdreesAh809/cats_dogs_project
+cd cat_dog_project
+```
 
 2. **Create and activate a virtual environment:**
 ```
@@ -44,14 +47,13 @@ source venv/bin/activate  # Mac/Linux
 4. **Install dependencies and run the app:**
 ```
 pip install -r requirements.txt
-streamlit run app/streamlit_app.py
+streamlit run streamlit_app.py
 ```
 ## Usage
 
- **Upload an image of a cat or dog.
+ **Upload an image of a cat or dog.**
 
-The app will predict whether the image is a cat or a dog.**
-2. **The app will predict whether the person is wearing a mask or not and display the confidence percentage:**
+**The app will predict whether the image is a cat or a dog.**
 
 ## License
 **This project is open-source and free to use**
